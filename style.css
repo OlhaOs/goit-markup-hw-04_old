@@ -14,9 +14,9 @@ html {
 *::before {
   box-sizing: inherit;
 }
-section {
+/* section {
   outline: 2px solid tomato;
-}
+} */
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -42,7 +42,7 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid blue;
+  /* outline: 2px solid blue; */
 }
 
 /* header*/
