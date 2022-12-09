@@ -107,7 +107,7 @@ nav {
 }
 
 .mail {
-  display: inline-flex;
+  display: block;
   align-items: center;
   gap: 10px;
 
@@ -125,6 +125,14 @@ nav {
   color: #757575;
   text-decoration: none;
 }
+
+.icon-phone {
+  width: 33px;
+  height: 33px;
+  fill: green;
+  background-color: tomato;
+}
+
 /*section Hero*/
 
 .hero {
@@ -219,30 +227,6 @@ nav {
   color: #757575;
 }
 
-.advantages-list .item::before {
-  display: block;
-  content: '';
-  max-width: 270px;
-  height: 120px;
-
-  background-color: #f5f4fa;
-  background-repeat: no-repeat;
-  background-size: 70px 70px;
-  background-position: center;
-}
-.antena::before {
-  background-image: url('./images/antenna\ 1.svg');
-}
-.clock::before {
-  background-image: url('./images/clock\ 1.svg');
-}
-.diagram::before {
-  background-image: url('./images/diagram\ 1.svg');
-}
-.astronavt::before {
-  background-image: url('./images/astronaut\ 1.svg');
-}
-
 /*Section whatWeDo*/
 .whatWeDo {
   padding-bottom: 94px;
@@ -310,38 +294,11 @@ nav {
 .team-member-photo {
   margin-bottom: 30px;
 }
-.icon-socila-media {
-  display: flex;
-  margin-right: 32px;
-  margin-left: 32px;
-}
-.icon-socila-media .icon {
-  margin-right: 10px;
-}
-.icon-socila-media .icon:last-child {
-  margin-right: 0;
-}
+
 /*customers*/
 .customers {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.logo-customers {
-  display: flex;
-}
-.item-logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 170px;
-  height: 92px;
-
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-}
-.item + .item .item-logo {
-  margin-left: 30px;
 }
 
 /*footer*/
@@ -383,17 +340,4 @@ nav {
   color: #ffffff;
   text-align: center;
   margin-bottom: 20px;
-}
-.social-media-list {
-  display: flex;
-}
-.decoration-footer {
-  display: flex;
-  gap: 70px;
-}
-.social-media-list .item {
-  margin-right: 10px;
-}
-.social-media-list .item:last-child {
-  margin-right: 0;
 }
